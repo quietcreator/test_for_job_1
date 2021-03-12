@@ -1,0 +1,91 @@
+@media only screen and (max-width: 414px) {
+aside, .header>h2, .header>nav, .qwerty--r, .body-cont_3, .body-cont_4 {
+    display: none;
+}
+* {font-size: 12px;}
+.wrapper {width: 100%; margin: 0;}
+.top-nav>a {padding: 12px 12px;}
+main {padding: 0;}
+.fa-lg {font-size: 2em;}
+.top-nav>div {padding-right: 16px;}
+.body-cont_1, .body-cont_2, .body-cont_3, .body-cont_4 {padding: 0 10px;}
+.body-cont_2 {border-right: 0}
+.lgg {font-size: 1.4em;}
+.header>div>i {margin-right: 14px;}
+.header>div>button {font-size: 16px;}
+.burger {display: inline-block;}
+
+.header>nav {
+    display: block;
+    margin-top: 0px;
+    position: absolute;
+    top: 0;
+    background: #353942;
+    width: 81%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: 3;
+}
+.header>nav>ul {
+    display: block;
+    font-weight: inherit;
+    margin-top: 22px;
+    background: #353942;
+}
+.header>nav>ul>li {
+    background: #353942;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.header>nav>ul>li>a {
+    font-size: 13px;
+    color: white;
+    margin-right: 0;
+    margin-left: 19px;
+}
+.adapt_men_head {display: flex;padding: 12px 18px;background: #353942;border-bottom: 1px solid white;}
+.adapt_men_head>h2 {background: #353942;color: white;font-weight: inherit;font-size: 16px;text-align: left;}
+.adapt_men_head>i {background: #353942;color: white;display: block;margin-left: auto;margin-top: 3px;}
+.adapt_men_head>i:active {color: #0c79a2b5;}
+#current {color: #1E99C7;font-weight: bold;}
+#header-nav--on {left: 0;}
+#header-nav--off {left: -81%;}
+.header>div>div {position: inherit;}
+.header>div>div>div {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    right: 0;
+    margin-top: 0;
+    background: #353942;
+}
+#poisk--off {width: 0%;}
+#poisk--on {width: 100%; z-index: 1;}
+.header>div>div>div>input[type=text] {
+    margin-left: 0;
+    position: relative;
+    top: 40%;
+    border: 1px solid;
+    width: 70%;
+    margin: 0 auto;
+}
+.header>div>div>div>i {
+    font-size: 3em;
+    left: 14px;
+    top: 14px;
+}
+.header>div>div>div>i:last-child {
+    color: #1E99C7;
+    top: 40%;
+    left: 80%;
+    width: 41px;
+    height: 38px;
+    margin-top: -5px;
+    background: white;
+    border-radius: 50%;
+}
+#knopochkavmestoenteron {display: block;}
+#knopochkavmestoenteroff {display: none;}
+}

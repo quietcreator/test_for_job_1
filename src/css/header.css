@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+	padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: #f4f7fb;
+    outline: none;
+}
+.header {
+    text-align: center;
+    display: flex;
+    padding: 15px 0;
+    background: white;
+    margin-bottom: 18px;
+    border-radius: 3px;
+}
+.header>nav {
+    display: flex;
+    margin-top: 6px;
+}
+.header>h2 {
+    margin-right: 56px;
+    margin-top: 6px;
+    background: white;
+    margin-left: 25px;
+}
+.header>nav>ul {
+    list-style-type: none;
+    display: flex;
+    font-weight: bold;
+}
+.header>nav>ul>li>a {
+    color: #1E99C7;
+    margin-right: 69px;
+    text-decoration: none;
+}
+.header>nav>ul>li>a:hover {color: #6ec9ea;}
+.header>nav>ul>li {
+    background: white;
+}
+.header>div {
+    margin-left: auto;
+    display: flex;
+    background: white;
+}
+.header>div>button {
+    display: inline-block;
+    margin-right: 16px;
+    border-radius: 3px;
+    border: 1px solid #1E99C7;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 7px 20px;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+.header>div>div {position: relative;background: white;}
+.header>div>div>div {
+    display: flex;
+    position: absolute;
+    right: 46px;
+    background: white;
+    margin-top: 1px;
+    float: right;
+    transition: 1s;
+}
+.header>div>div>div>i {
+    position: absolute;
+    left: 0;
+    background: #353942;
+    color: white;
+    font-size: 2em;
+    padding-top: 3px;
+    width: 30px;
+    height: 28px;
+    cursor: pointer;
+}
+.header>div>div>i {
+    display: block;
+    margin-right: 19px;
+    margin-top: 9px;
+    color: #1E99C7;
+    cursor: pointer;
+    background: white;
+}
+.header>div>div>i:active {color:#0c79a2b5;}
+.header>div>div>div>input[type=text] {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    border: none;
+    font-size: 17px;
+    margin-left: 28px;
+    background: #353942;
+    color: white;
+}
+#poisk--on {width: 102vh;}
+#poisk--off {width: 30vh;}
+
+/* ------------------------------------------------------------------------------------------ */
+
+.burger {
+    width: 40px;
+    height: 40px;
+    display: none;
+    border: none;
+    border-radius: 50%;
+    background: #0C79A2;
+    margin-left: 22px;
+}
+.burger:active {background:#0c79a2b5;}
+.burger span {
+    width: 60%;
+    height: 3px;
+    display: block;
+    margin: 4px auto;
+    background-color:#FFF;
+    border-radius: 1px;
+}
+#current {color: black;}
+.adapt_men_head {display: none;}
+.header>div>div>div>i:last-child {display: none;}
